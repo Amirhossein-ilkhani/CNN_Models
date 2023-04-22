@@ -1,0 +1,11 @@
+batch_size : 64
+epochs : 20
+learning_rate : 0.001
+gamma : 0.5
+step_size : 20
+ckpt_save_freq : 20
+model : 'Resnet' # CNN/Resnet/Inception/Resnext/SE/Mixed 
+load : False
+ckpt_save_path : "./"
+ckpt_path : "./ckpt_Inception_epoch60.ckpt"
+report_path : "./"

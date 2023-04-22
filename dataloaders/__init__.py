@@ -1,0 +1,1 @@
+from .CIFAR10 import cifar10_data as cifa10_data
